@@ -3,21 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BounceScript : MonoBehaviour
+    
 {
-    // Start is called before the first frame update
+
+    public float xForce;
+
+    public float yForce;
+    
     void Start()
     {
-        
+        Vector3 myMovement;
+        myMovement.x = xForce;
+        myMovement.y = yForce;
+        myMovement.z = 0f;
+
+        Rigidbody2D ballInit = GetComponent<Rigidbody2D>();
+
+        ballInit.AddForce(myMovement);
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 myMovement;
-        myMovement.x = .1f;
-        myMovement.y = .1f;
-        myMovement.z = 0f;
 
-        this.transform.position = this.transform.position + myMovement;
     }
 }
