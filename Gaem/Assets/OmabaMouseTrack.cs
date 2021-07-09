@@ -6,6 +6,7 @@ public class OmabaMouseTrack : MonoBehaviour
     public float speed;
     public float rotationOffset;
     public Rigidbody2D rigid;
+    private bool moving;
     void Start()
     {
         
@@ -14,11 +15,15 @@ public class OmabaMouseTrack : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            BallStart();
+            if (moving == false)
+            {
+                BallStart();
+            }
         }
     }
     void BallStart()
     {
+        moving = true;
         Vector3 mousePosition = Input.mousePosition;
         mousePosition.z = 0;
         Vector3 objectPosition = Camera.main.WorldToScreenPoint(transform.position);
@@ -30,5 +35,11 @@ public class OmabaMouseTrack : MonoBehaviour
         targetPosition.z = 0;
         //transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
         rigid.AddForce(mousePosition);
+        Debug.Log("click");
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        //print("stop");
     }
 }

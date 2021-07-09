@@ -195,7 +195,7 @@ GameObject:
   - component: {fileID: 184554450}
   - component: {fileID: 184554453}
   m_Layer: 0
-  m_Name: ControlableCircle
+  m_Name: Omaba
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -346,7 +346,7 @@ GameObject:
   - component: {fileID: 319979408}
   - component: {fileID: 319979407}
   m_Layer: 0
-  m_Name: Square (3)
+  m_Name: Right Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -675,7 +675,7 @@ GameObject:
   - component: {fileID: 815572851}
   - component: {fileID: 815572850}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -864,7 +864,7 @@ GameObject:
   - component: {fileID: 1233600853}
   - component: {fileID: 1233600852}
   m_Layer: 0
-  m_Name: Square (1)
+  m_Name: Ceiling
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1395,7 +1395,7 @@ GameObject:
   - component: {fileID: 2043787012}
   - component: {fileID: 2043787011}
   m_Layer: 0
-  m_Name: Square (2)
+  m_Name: Left Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
