@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1 (5)
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
@@ -557,7 +557,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1 (1)
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
@@ -614,7 +614,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1 (6)
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
@@ -803,7 +803,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1 (10)
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
@@ -992,7 +992,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1 (3)
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
@@ -1049,7 +1049,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1 (2)
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
@@ -1106,7 +1106,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1 (11)
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
@@ -1163,7 +1163,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1 (7)
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
@@ -1220,7 +1220,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1 (12)
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
@@ -1277,7 +1277,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1 (8)
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
@@ -1334,7 +1334,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1 (9)
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
@@ -1523,7 +1523,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1 (4)
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
@@ -1584,7 +1584,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147664, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_Name
-      value: Circle1
+      value: Circle
       objectReference: {fileID: 0}
     - target: {fileID: 4403063424910147692, guid: a883e3d253acb44d7b9dafb267caafad, type: 3}
       propertyPath: m_RootOrder
