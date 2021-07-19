@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 4953788170579020770}
   - component: {fileID: 5346748582921427919}
   - component: {fileID: 4596697692717511008}
-  - component: {fileID: -5609702015084453865}
-  - component: {fileID: 3900207110929555070}
   m_Layer: 0
   m_Name: BreakableCircle
   m_TagString: Untagged
@@ -29,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4181377196384827075}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -77,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -124,34 +122,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &-5609702015084453865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4181377196384827075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d8be67a62b8b401db338c64a9894dec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myInt: 1
-  myColor1: {r: 1, g: 0, b: 0, a: 0}
-  myColor2: {r: 0, g: 1, b: 0, a: 0}
-  myColor3: {r: 0, g: 0, b: 1, a: 0}
-  myCircle: {fileID: 4953788170579020770}
---- !u!114 &3900207110929555070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4181377196384827075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23b083a156b5f45658bcb4baf41c47d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  breakableCircle: {fileID: 5346748582921427919}
-  screenPos: {fileID: 8835771851144203392}
