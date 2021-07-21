@@ -7,6 +7,7 @@ public class StartMenu : MonoBehaviour
 {
     public void PlayGame()
     {
+        SoundManager.Instance.PlaySound ("menuSelect");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     public void QuitGame()
