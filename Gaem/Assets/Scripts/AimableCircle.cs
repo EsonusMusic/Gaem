@@ -40,11 +40,15 @@ public class AimableCircle : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("touched");
+        
         //speed = 0;
-        if(collision.gameObject.name == "BreakableCircle")
+        if(collision.gameObject.name.Contains("BreakableCircle"))
         {
-            GetComponent<Rigidbody>().velocity = Vector3.zero;
+            //GetComponent<Rigidbody2D>().velocity = Vector3.zero;
+            rigid.velocity = Vector3.zero;
+            Debug.Log("touched");
+
+            Debug.Log(collision.gameObject.GetComponent<SpriteRenderer>().color);
         }
     }
 }
